@@ -97,10 +97,10 @@ df_final['target'] = y
 
 # ========================================================================================================================================================================================
 # STREAMLIT
-<style>
+
 body {
   background: #FFC2C1;
-}
+
 st.set_page_config(
   page_title = "Hungarian Heart Disease",
   page_icon = ":heart:"
@@ -309,3 +309,4 @@ with tab2:
       st.dataframe(uploaded_result)
     with col2:
       st.dataframe(uploaded_df)
+}
