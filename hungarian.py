@@ -6,10 +6,7 @@ from sklearn.metrics import accuracy_score
 import streamlit as st
 import time
 import pickle
-primaryColor="#F63366"
-backgroundColor="#FFFFFF"
-secondaryBackgroundColor="#F0F2F6"
-textColor="#262730"
+
 with open("data/hungarian.data", encoding='Latin1') as file:
   lines = [line.strip() for line in file]
 
