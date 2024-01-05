@@ -96,12 +96,13 @@ df_final = X
 df_final['target'] = y
 
 # ========================================================================================================================================================================================
-
+body {
+  background: #FFC2C1;  
+}
 # STREAMLIT
 st.set_page_config(
   page_title = "Hungarian Heart Disease",
   page_icon = ":heart:"
-  background_color= "#FFC2C1"
 )
 
 st.title("Hungarian Heart Disease")
